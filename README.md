@@ -7,7 +7,7 @@ NRP: 5025201096
 Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu dengan seseorang yang menghadiri acara vaksinasi sebelumnya.
 <ul>
   <li> a) Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaksinasi sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri acara vaksinasi ? (distribusi Geometrik) </li>
-  ```R
+  ``` R
   n <- 3
   p <- 0.20
   q <- 0.80
@@ -16,7 +16,7 @@ Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu de
   print(dg)
   ```
   <li> b) mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 ) </li>
-  ```R
+  ``` R
   mean(rgeom(10000, p) == 3)
   ```
 </ul>
