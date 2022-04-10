@@ -18,6 +18,8 @@ plot(success, rpois(success, n),
      lwd=3)
 
 #c) dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan?
+print("Pada 3a akan didapatkan hasil exact 0.1281201 sedangkan pada 3b didapat hasil random selama setahun (365 hari).")
+print("Jadi, pada 3a dilakukan perhitungan peluang bahwa 6 bayi akan lahir di rumah sakit pada esok hari, sedangkan untuk 3b peluang bahwa 6 bayi akan lahir di rumah sakit selama setahun (365 hari)")
 
 #d) Nilai Rataan dan Varian dari Distribusi Poisson
 mean = lambda
