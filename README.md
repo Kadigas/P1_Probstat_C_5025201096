@@ -41,7 +41,9 @@ data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = p)) %>%
        y = "Probabilitas")
 ```
 <img src="">
+
 e) Nilai Rataan dan Varian dari Distribusi Geometrik
+
 ``` R
 mean <- 1 / p
 var <- (1 - p) / p
