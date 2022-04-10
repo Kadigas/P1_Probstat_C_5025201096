@@ -153,16 +153,19 @@ set.seed(1)
 hist(rexp(10))
 ```
 <img src="">
+
 ``` R
 set.seed(1)
 hist(rexp(100))
 ```
 <img src="">
+
 ``` R
 set.seed(1)
 hist(rexp(1000))
 ```
 <img src="">
+
 ``` R
 set.seed(1)
 hist(rexp(10000))
