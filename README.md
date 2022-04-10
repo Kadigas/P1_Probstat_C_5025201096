@@ -16,10 +16,14 @@ a) Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaks
   dg <- dgeom(n, p)
   print(dg)
   ```
+  <img src="/screenshots/1a.png">
+  
 b) mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 ) </li>
   ``` R
   mean(rgeom(10000, p) == 3)
   ```
+  <img src="/screenshots/1b.png">
+  
 c) Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
  ``` R
  print("Hasil dari perhitungan a dan b tidak terlalu jauh. Yang membedakan adalah a bernilai tetap sedangkan b bernilai random, besar kecil nilainya ditentukan oleh X")
@@ -51,6 +55,7 @@ var <- (1 - p) / p
 print(mean)
 print(var)
 ```
+<img src="/screenshots/1e.png">
 
 ## No. 2
 Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
@@ -63,6 +68,7 @@ n <- 4
 db <- dbinom(n, size, prob)
 print(db)
 ```
+<img src="/screenshots/2a.png">
 
 b) Gambarkan grafik histogram berdasarkan kasus tersebut
 ``` R
@@ -79,6 +85,7 @@ var <- size * prob * (1-prob)
 print(mean)
 print(var)
 ```
+<img src="/screenshots/2c.png">
 
 ## No. 3
 Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis 4,5 bayi lahir di rumah sakit ini setiap hari. (gunakan Distribusi Poisson)
@@ -89,6 +96,7 @@ lambda <- 4.5
 n <- 6
 dpois(n, lambda)
 ```
+<img src="/screenshots/3a.png">
 
 b) simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama setahun (n = 365)
 ``` R
@@ -112,6 +120,7 @@ var <- lambda
 print(mean)
 print(var)
 ```
+<img src="/screenshots/3d.png">
 
 ## No. 4
 Diketahui nilai x = 2 dan v = 10. Tentukan:
@@ -122,6 +131,7 @@ x <- 2
 v <- 10
 dchisq(x, v)
 ```
+<img src="/screenshots/4a.png">
 
 b) Histogram dari Distribusi Chi-Square dengan 100 data random.
 ``` R
@@ -137,6 +147,7 @@ var <- 2*v
 print(mean)
 print(var)
 ```
+<img src="/screenshots/4c.png">
 
 ## No. 5
 Diketahui bilangan acak (random variable) berdistribusi exponential (lambda = 3). Tentukan
@@ -146,6 +157,7 @@ a) Fungsi Probabilitas dari Distribusi Exponensial
 lambda <- 3
 dexp(lambda)
 ```
+<img src="/screenshots/5a.png">
 
 b) Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
 ``` R
@@ -179,6 +191,7 @@ var <- lambda * lambda
 print(mean)
 print(var)
 ```
+<img src="/screenshots/5c.png">
 
 ## No. 6
 Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan
@@ -218,6 +231,7 @@ paste("x1 = ", x1)
 paste("x2 = ", x2)
 ```
 <img src="/screenshots/hist61.png">
+<img src="/screenshots/6a.png">
 
 b) Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan: NRP_Nama_Probstat_{Nama Kelas}_DNhistogram
 ``` R
@@ -230,3 +244,5 @@ c) Nilai Varian dari hasil generate random nilai Distribusi Normal.
 var = sd * sd
 print(var)
 ```
+<img src="/screenshots/6c.png">
+
