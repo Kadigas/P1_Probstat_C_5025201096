@@ -70,7 +70,7 @@ peluang <- dbinom(1:20, 20, 0.2)
 data = data.frame(y=c(peluang), x=c(1:20))
 barplot(data$y, names.arg=data$x, ylab="Peluang", xlab="Jumlah Pasien")
 ```
-<img src="">
+<img src="/screenshots/hist2.png">
 
 c) Nilai Rataan dan Varian dari Distribusi Binomial
 ```R
@@ -101,7 +101,7 @@ plot(success, rpois(success, n),
      xlab ='Hari',
      lwd=3)
 ```
-<img src="">
+<img src="/screenshots/hist3.png">
 
 #c) dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan?
 
@@ -128,7 +128,7 @@ b) Histogram dari Distribusi Chi-Square dengan 100 data random.
 random <- 100
 hist(rchisq(random, v))
 ```
-<img src="">
+<img src="/screenshots/hist4.png">
 
 c) Nilai Rataan dan Varian dari Distribusi Chi-Square.
 ``` R
@@ -152,25 +152,25 @@ b) Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan 
 set.seed(1)
 hist(rexp(10))
 ```
-<img src="">
+<img src="/screenshots/hist51.png">
 
 ``` R
 set.seed(1)
 hist(rexp(100))
 ```
-<img src="">
+<img src="/screenshots/hist52.png">
 
 ``` R
 set.seed(1)
 hist(rexp(1000))
 ```
-<img src="">
+<img src="/screenshots/hist53.png">
 
 ``` R
 set.seed(1)
 hist(rexp(10000))
 ```
-<img src="">
+<img src="/screenshots/hist54.png">
 
 c) Nilai Rataan dan Varian dari Distribusi Exponensial untuk n = 100 dan lambda = 3
 ``` R
@@ -217,12 +217,13 @@ paste("Mean = ", m)
 paste("x1 = ", x1)
 paste("x2 = ", x2)
 ```
+<img src="/screenshots/hist61.png">
 
 b) Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan: NRP_Nama_Probstat_{Nama Kelas}_DNhistogram
 ``` R
 h = hist(rnorm(n, m, sd), breaks = 50, main="5025201096_Andhika Ditya Bagaskara D_C_DNhistogram")
 ```
-<img src="">
+<img src="/screenshots/hist62.png">
 
 c) Nilai Varian dari hasil generate random nilai Distribusi Normal.
 ``` R
