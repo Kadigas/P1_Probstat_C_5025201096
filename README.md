@@ -41,7 +41,7 @@ data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = p)) %>%
        x = "Kegagalan sebelum sukses pertama (x)",
        y = "Probabilitas")
 ```
-<img src="">
+<img src="/screenshots/hist1">
 
 e) Nilai Rataan dan Varian dari Distribusi Geometrik
 
