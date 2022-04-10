@@ -221,7 +221,7 @@ paste("x2 = ", x2)
 
 b) Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan: NRP_Nama_Probstat_{Nama Kelas}_DNhistogram
 ``` R
-h = hist(rnorm(n, m, sd), breaks = 50, main="5025201096_Andhika Ditya Bagaskara D_C_DNhistogram")
+h = hist(rnorm(n, m, sd), breaks = 50, main="5025201096_Andhika Ditya Bagaskara D_Probstat_C_DNhistogram")
 ```
 <img src="/screenshots/hist62.png">
 
