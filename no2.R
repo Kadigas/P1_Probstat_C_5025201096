@@ -11,7 +11,6 @@ print(db)
 peluang <- dbinom(1:20, 20, 0.2)
 data = data.frame(y=c(peluang), x=c(1:20))
 barplot(data$y, names.arg=data$x, ylab="Peluang", xlab="Jumlah Pasien")
-#doubt
 
 #c) Nilai Rataan dan Varian dari Distribusi Binomial
 mean <- size * prob
